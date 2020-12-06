@@ -121,6 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Calculator.cpp" />
+    <ClCompile Include="Operator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Calculator.h">

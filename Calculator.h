@@ -1,7 +1,13 @@
 #pragma once
+#include "Operator.cpp"
+#include <iostream>
+#include<string>
+#include <stdlib.h>
+#include <msclr\marshal_cppstd.h>
+
+using std::string;
 
 namespace BaseCalculator {
-
 	using namespace System;
 	using namespace System::ComponentModel;
 	using namespace System::Collections;
@@ -88,6 +94,7 @@ namespace BaseCalculator {
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"Calculate";
 			this->button1->UseVisualStyleBackColor = false;
+			this->button1->Click += gcnew System::EventHandler(this, &Calculator::button1_Click);
 			// 
 			// label1
 			// 
@@ -227,5 +234,12 @@ namespace BaseCalculator {
 #pragma endregion
 
 
+private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+	int base = this->comboBox2->SelectedIndex + 2;
+	string a = msclr::interop::marshal_as< std::string >(this->textBox1->Text);
+	string b = msclr::interop::marshal_as< std::string >(this->textBox2->Text);
+	Operator op(a, b , base);
+	this->textBox3->Text = base.ToString();
+}
 };
 }
