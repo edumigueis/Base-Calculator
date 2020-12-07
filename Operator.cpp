@@ -6,34 +6,33 @@ using std::string;
 
 class Operator {
 
-    string memberA, memberB;
-    int base;
+	string memberA, memberB;
+	int base;
 
 public:
-    Operator(string a, string b, int numberBase) {
-        memberA = a;
-        memberB = b;
-        base = numberBase;
-    }
+	Operator(string a, string b, int numberBase) {
+		memberA = a;
+		memberB = b;
+		base = numberBase;
+	}
 
-    string add() {
-        //return Somador.somar(numeroUm, numeroDois, base);
-        return "0";
-    }
+	string add() {
+		//return Somador.somar(numeroUm, numeroDois, base);
+		return "0";
+	}
 
-    string subtract() {
-        //return Subtrador.subtrair(numeroUm, numeroDois, base);
-        return "1";
-    }
+	string subtract() {
+		//return Subtrador.subtrair(numeroUm, numeroDois, base);
+		return "1";
+	}
 
-    string multiply() {
-        //return Multiplicador.multiplicar(numeroUm, numeroDois, base);
-        return "2";
-    }
+	string multiply() {
+		//return Multiplicador.multiplicar(numeroUm, numeroDois, base);
+		return "2";
+	}
 
-    string divide() {
-        //return Divisora.dividir(numeroUm, numeroDois, base);
-        return "3";
-    }
-
+	string divide() {
+		//return Divisora.dividir(numeroUm, numeroDois, base);
+		return "3";
+	}
 };

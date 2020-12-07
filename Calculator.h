@@ -57,7 +57,7 @@ namespace BaseCalculator {
 		/// <summary>
 		/// Variável de designer necessária.
 		/// </summary>
-		System::ComponentModel::Container ^components;
+		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -236,14 +236,14 @@ namespace BaseCalculator {
 #pragma endregion
 
 
-private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-	int base = this->comboBox2->SelectedIndex + 2;
-	string a = msclr::interop::marshal_as< std::string >(this->textBox1->Text);
-	string b = msclr::interop::marshal_as< std::string >(this->textBox2->Text);
-	Operator op(a, b, base);
-	int operation = this->comboBox1->SelectedIndex;
-	string result;
-	switch (operation) {
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		int base = this->comboBox2->SelectedIndex + 2;
+		string a = msclr::interop::marshal_as< std::string >(this->textBox1->Text);
+		string b = msclr::interop::marshal_as< std::string >(this->textBox2->Text);
+		Operator op(a, b, base);
+		int operation = this->comboBox1->SelectedIndex;
+		string result;
+		switch (operation) {
 		case 0:
 			result = op.add();
 			break;
@@ -256,9 +256,9 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 		case 3:
 			result = op.divide();
 			break;
+		}
+		String^ resFinal = gcnew String(result.c_str());
+		this->textBox3->Text = resFinal;
 	}
-	String^ resFinal = gcnew String(result.c_str());
-	this->textBox3->Text = resFinal;
-}
-};
+	};
 }
