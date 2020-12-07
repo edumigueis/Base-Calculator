@@ -224,7 +224,9 @@ namespace BaseCalculator {
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->button1);
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
+			this->MaximizeBox = false;
 			this->Name = L"Calculator";
 			this->Text = L"Calculator";
 			this->ResumeLayout(false);
@@ -238,8 +240,25 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	int base = this->comboBox2->SelectedIndex + 2;
 	string a = msclr::interop::marshal_as< std::string >(this->textBox1->Text);
 	string b = msclr::interop::marshal_as< std::string >(this->textBox2->Text);
-	Operator op(a, b , base);
-	this->textBox3->Text = base.ToString();
+	Operator op(a, b, base);
+	int operation = this->comboBox1->SelectedIndex;
+	string result;
+	switch (operation) {
+		case 0:
+			result = op.add();
+			break;
+		case 1:
+			result = op.subtract();
+			break;
+		case 2:
+			result = op.multiply();
+			break;
+		case 3:
+			result = op.divide();
+			break;
+	}
+	String^ resFinal = gcnew String(result.c_str());
+	this->textBox3->Text = resFinal;
 }
 };
 }

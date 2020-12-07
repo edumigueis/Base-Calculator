@@ -1,6 +1,4 @@
 ﻿  Calculator.cpp
 C:\Dudu\Projetos e Apps\Base-Calculator\Calculator.cpp(7,33): warning C4829: Parâmetros possivelmente incorretos para função main. Considere o uso de 'int main(Platform::Array<Platform::String^>^ argv)'
-  Operator.cpp
-  Gerando Código...
   Calculator.obj : Módulo MSIL encontrado; vínculo incremental está desabilitado para MSIL; executando link completo
   Base-Calculator.vcxproj -> C:\Dudu\Projetos e Apps\Base-Calculator\Debug\Base-Calculator.exe

@@ -23,17 +23,17 @@ public:
 
     string subtract() {
         //return Subtrador.subtrair(numeroUm, numeroDois, base);
-        return "0";
+        return "1";
     }
 
     string multiply() {
         //return Multiplicador.multiplicar(numeroUm, numeroDois, base);
-        return "0";
+        return "2";
     }
 
     string divide() {
         //return Divisora.dividir(numeroUm, numeroDois, base);
-        return "0";
+        return "3";
     }
 
 };
