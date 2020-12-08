@@ -1,5 +1,6 @@
 #pragma once
 #include "Operator.cpp"
+#include "Verifier.cpp"
 #include <iostream>
 #include<string>
 #include <stdlib.h>
@@ -240,25 +241,39 @@ namespace BaseCalculator {
 		int base = this->comboBox2->SelectedIndex + 2;
 		string a = msclr::interop::marshal_as< std::string >(this->textBox1->Text);
 		string b = msclr::interop::marshal_as< std::string >(this->textBox2->Text);
-		Operator op(a, b, base);
-		int operation = this->comboBox1->SelectedIndex;
-		string result;
-		switch (operation) {
-		case 0:
-			result = op.add();
-			break;
-		case 1:
-			result = op.subtract();
-			break;
-		case 2:
-			result = op.multiply();
-			break;
-		case 3:
-			result = op.divide();
-			break;
+		if (a.empty() == true || b.empty() == true)
+			MessageBox::Show("Please input the numbers.", "Error",MessageBoxButtons::OK,MessageBoxIcon::Warning);
+		else
+			if (base <= 1)
+				MessageBox::Show("Please select the number base.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+			else
+				if (Verifier::verify(a, b, base) == false)
+					MessageBox::Show("The number base must be the same and the numbers must fit.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+				else {
+					Operator op(a, b, base);
+					int operation = this->comboBox1->SelectedIndex;
+					if (operation < 0)
+						MessageBox::Show("Please select the number base.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+					else {
+						string result;
+						switch (operation) {
+						case 0:
+							result = op.add();
+							break;
+						case 1:
+							result = op.subtract();
+							break;
+						case 2:
+							result = op.multiply();
+							break;
+						case 3:
+							result = op.divide();
+							break;
+						}
+						String^ resFinal = gcnew String(result.c_str());
+						this->textBox3->Text = resFinal;
+					}
+				}
 		}
-		String^ resFinal = gcnew String(result.c_str());
-		this->textBox3->Text = resFinal;
-	}
 	};
 }

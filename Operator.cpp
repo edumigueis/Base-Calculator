@@ -1,6 +1,7 @@
 #include <iostream>
 #include<string>
 #include <stdlib.h>
+#include "Adder.cpp"
 
 using std::string;
 
@@ -17,22 +18,21 @@ public:
 	}
 
 	string add() {
-		//return Somador.somar(numeroUm, numeroDois, base);
-		return "0";
+		return Adder::add(this->memberA, this->memberB, base);
 	}
 
 	string subtract() {
-		//return Subtrador.subtrair(numeroUm, numeroDois, base);
+		//return Subtractor::subtract(this->memberA, this->memberB, base);
 		return "1";
 	}
 
 	string multiply() {
-		//return Multiplicador.multiplicar(numeroUm, numeroDois, base);
+		//return Multiplier::multiply(this->memberA, this->memberB, base);
 		return "2";
 	}
 
 	string divide() {
-		//return Divisora.dividir(numeroUm, numeroDois, base);
+		//return Divider::divide(this->memberA, this->memberB, base);
 		return "3";
 	}
 };
