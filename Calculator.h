@@ -248,7 +248,7 @@ namespace BaseCalculator {
 				MessageBox::Show("Please select the number base.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 			else
 				if (Verifier::verify(a, b, base) == false)
-					MessageBox::Show("The number base must be the same and the numbers must fit.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+					MessageBox::Show("The number base must be the same and the numbers must belong to that base.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 				else {
 					Operator op(a, b, base);
 					int operation = this->comboBox1->SelectedIndex;
