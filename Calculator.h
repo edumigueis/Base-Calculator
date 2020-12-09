@@ -294,7 +294,7 @@ namespace BaseCalculator {
 
 		private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 			std::string a = msclr::interop::marshal_as< std::string >(this->textBox1->Text);
-			if (a.find_first_not_of("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890") != std::string::npos) {
+			if (a.find_first_not_of("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890.,-") != std::string::npos) {
 				button1->Enabled = false;
 				label6->Visible = true;
 			}
@@ -306,7 +306,7 @@ namespace BaseCalculator {
 
 		private: System::Void textBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 			std::string a = msclr::interop::marshal_as< std::string >(this->textBox2->Text);
-			if (a.find_first_not_of("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890") != std::string::npos) {	
+			if (a.find_first_not_of("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890.,-") != std::string::npos) {	
 				button1->Enabled = false;
 				label7->Visible = true;
 			}
