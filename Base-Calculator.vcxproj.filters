@@ -30,6 +30,9 @@
     <ClCompile Include="Verifier.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
+    <ClCompile Include="Converter.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Calculator.h">

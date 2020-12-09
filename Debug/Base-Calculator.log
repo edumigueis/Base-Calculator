@@ -1,4 +1,9 @@
-﻿  Calculator.cpp
+﻿  Adder.cpp
+C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(12,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Calculator.cpp
+C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(12,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Dudu\Projetos e Apps\Base-Calculator\Calculator.cpp(7,33): warning C4829: Parâmetros possivelmente incorretos para função main. Considere o uso de 'int main(Platform::Array<Platform::String^>^ argv)'
+  Gerando Código...
+C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(14): warning C4172: retornando o endereço da variável local ou temporário: res
   Adder.obj : Módulo MSIL encontrado; vínculo incremental está desabilitado para MSIL; executando link completo
   Base-Calculator.vcxproj -> C:\Dudu\Projetos e Apps\Base-Calculator\Debug\Base-Calculator.exe

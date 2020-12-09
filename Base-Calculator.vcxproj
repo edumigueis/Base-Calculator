@@ -124,6 +124,7 @@
   <ItemGroup>
     <ClCompile Include="Adder.cpp" />
     <ClCompile Include="Calculator.cpp" />
+    <ClCompile Include="Converter.cpp" />
     <ClCompile Include="Operator.cpp" />
     <ClCompile Include="Verifier.cpp" />
   </ItemGroup>
