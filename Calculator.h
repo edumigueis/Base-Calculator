@@ -16,24 +16,15 @@ namespace BaseCalculator {
 	using namespace System::Data;
 	using namespace System::Drawing;
 
-	/// <summary>
-	/// Sumário para Calculator
-	/// </summary>
 	public ref class Calculator : public System::Windows::Forms::Form
 	{
 	public:
 		Calculator(void)
 		{
 			InitializeComponent();
-			//
-			//TODO: Adicione o código do construtor aqui
-			//
 		}
 
 	protected:
-		/// <summary>
-		/// Limpar os recursos que estão sendo usados.
-		/// </summary>
 		~Calculator()
 		{
 			if (components)
@@ -53,18 +44,12 @@ namespace BaseCalculator {
 	private: System::Windows::Forms::Label^ label4;
 	private: System::Windows::Forms::TextBox^ textBox3;
 	private: System::Windows::Forms::Label^ label5;
+	private: System::Windows::Forms::Label^ label6;
+	private: System::Windows::Forms::Label^ label7;
 
 	private:
-		/// <summary>
-		/// Variável de designer necessária.
-		/// </summary>
 		System::ComponentModel::Container^ components;
 
-#pragma region Windows Form Designer generated code
-		/// <summary>
-		/// Método necessário para suporte ao Designer - não modifique 
-		/// o conteúdo deste método com o editor de código.
-		/// </summary>
 		void InitializeComponent(void)
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Calculator::typeid));
@@ -79,6 +64,8 @@ namespace BaseCalculator {
 			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
 			this->label5 = (gcnew System::Windows::Forms::Label());
+			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->label7 = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
 			// button1
@@ -149,6 +136,7 @@ namespace BaseCalculator {
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->Size = System::Drawing::Size(234, 26);
 			this->textBox1->TabIndex = 5;
+			this->textBox1->TextChanged += gcnew System::EventHandler(this, &Calculator::textBox1_TextChanged);
 			// 
 			// textBox2
 			// 
@@ -158,6 +146,7 @@ namespace BaseCalculator {
 			this->textBox2->Name = L"textBox2";
 			this->textBox2->Size = System::Drawing::Size(234, 26);
 			this->textBox2->TabIndex = 6;
+			this->textBox2->TextChanged += gcnew System::EventHandler(this, &Calculator::textBox2_TextChanged);
 			// 
 			// comboBox2
 			// 
@@ -191,10 +180,10 @@ namespace BaseCalculator {
 				static_cast<System::Int32>(static_cast<System::Byte>(224)));
 			this->textBox3->Font = (gcnew System::Drawing::Font(L"Century Gothic", 11.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->textBox3->Location = System::Drawing::Point(30, 409);
+			this->textBox3->Location = System::Drawing::Point(30, 398);
 			this->textBox3->Multiline = true;
 			this->textBox3->Name = L"textBox3";
-			this->textBox3->Size = System::Drawing::Size(234, 62);
+			this->textBox3->Size = System::Drawing::Size(234, 73);
 			this->textBox3->TabIndex = 9;
 			// 
 			// label5
@@ -202,11 +191,37 @@ namespace BaseCalculator {
 			this->label5->AutoSize = true;
 			this->label5->Font = (gcnew System::Drawing::Font(L"Century Gothic", 11.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label5->Location = System::Drawing::Point(26, 386);
+			this->label5->Location = System::Drawing::Point(26, 374);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(51, 20);
 			this->label5->TabIndex = 10;
 			this->label5->Text = L"Result";
+			// 
+			// label6
+			// 
+			this->label6->AutoSize = true;
+			this->label6->Font = (gcnew System::Drawing::Font(L"Century Gothic", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label6->ForeColor = System::Drawing::Color::Firebrick;
+			this->label6->Location = System::Drawing::Point(28, 150);
+			this->label6->Name = L"label6";
+			this->label6->Size = System::Drawing::Size(201, 16);
+			this->label6->TabIndex = 11;
+			this->label6->Text = L"Special characters are not allowed.";
+			this->label6->Visible = false;
+			// 
+			// label7
+			// 
+			this->label7->AutoSize = true;
+			this->label7->Font = (gcnew System::Drawing::Font(L"Century Gothic", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label7->ForeColor = System::Drawing::Color::Firebrick;
+			this->label7->Location = System::Drawing::Point(28, 293);
+			this->label7->Name = L"label7";
+			this->label7->Size = System::Drawing::Size(201, 16);
+			this->label7->TabIndex = 12;
+			this->label7->Text = L"Special characters are not allowed.";
+			this->label7->Visible = false;
 			// 
 			// Calculator
 			// 
@@ -214,6 +229,8 @@ namespace BaseCalculator {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::WhiteSmoke;
 			this->ClientSize = System::Drawing::Size(296, 495);
+			this->Controls->Add(this->label7);
+			this->Controls->Add(this->label6);
 			this->Controls->Add(this->label5);
 			this->Controls->Add(this->textBox3);
 			this->Controls->Add(this->comboBox2);
@@ -229,51 +246,74 @@ namespace BaseCalculator {
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->MaximizeBox = false;
 			this->Name = L"Calculator";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Calculator";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
-#pragma endregion
 
-
-	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-		int base = this->comboBox2->SelectedIndex + 2;
-		string a = msclr::interop::marshal_as< std::string >(this->textBox1->Text);
-		string b = msclr::interop::marshal_as< std::string >(this->textBox2->Text);
-		if (a.empty() == true || b.empty() == true)
-			MessageBox::Show("Please input the numbers.", "Error",MessageBoxButtons::OK,MessageBoxIcon::Warning);
-		else
-			if (base <= 1)
-				MessageBox::Show("Please select the number base.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+		private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+			int base = this->comboBox2->SelectedIndex + 2;
+			string a = msclr::interop::marshal_as< std::string >(this->textBox1->Text);
+			string b = msclr::interop::marshal_as< std::string >(this->textBox2->Text);
+			if (a.empty() == true || b.empty() == true)
+				MessageBox::Show("Please input the numbers.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 			else
-				if (Verifier::verify(a, b, base) == false)
-					MessageBox::Show("The number base must be the same and the numbers must belong to that base.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Warning);
-				else {
-					Operator op(a, b, base);
-					int operation = this->comboBox1->SelectedIndex;
-					if (operation < 0)
-						MessageBox::Show("Please select the number base.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+				if (base <= 1)
+					MessageBox::Show("Please select the number base.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+				else
+					if (Verifier::verify(a, b, base) == false)
+						MessageBox::Show("The number base must be the same and the numbers must belong to that base.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 					else {
-						string result;
-						switch (operation) {
-						case 0:
-							result = op.add();
-							break;
-						case 1:
-							result = op.subtract();
-							break;
-						case 2:
-							result = op.multiply();
-							break;
-						case 3:
-							result = op.divide();
-							break;
+						Operator op(a, b, base);
+						int operation = this->comboBox1->SelectedIndex;
+						if (operation < 0)
+							MessageBox::Show("Please select the number base.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+						else {
+							string result;
+							switch (operation) {
+							case 0:
+								result = op.add();
+								break;
+							case 1:
+								result = op.subtract();
+								break;
+							case 2:
+								result = op.multiply();
+								break;
+							case 3:
+								result = op.divide();
+								break;
+							}
+							String^ resFinal = gcnew String(result.c_str());
+							this->textBox3->Text = resFinal;
 						}
-						String^ resFinal = gcnew String(result.c_str());
-						this->textBox3->Text = resFinal;
 					}
-				}
+		}
+
+		private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+			std::string a = msclr::interop::marshal_as< std::string >(this->textBox1->Text);
+			if (a.find_first_not_of("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890") != std::string::npos) {
+				button1->Enabled = false;
+				label6->Visible = true;
+			}
+			else {
+				button1->Enabled = true;
+				label6->Visible = false;
+			}
+		}
+
+		private: System::Void textBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+			std::string a = msclr::interop::marshal_as< std::string >(this->textBox2->Text);
+			if (a.find_first_not_of("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890") != std::string::npos) {	
+				button1->Enabled = false;
+				label7->Visible = true;
+			}
+			else {
+				button1->Enabled = true;
+				label7->Visible = false;
+			}
 		}
 	};
 }

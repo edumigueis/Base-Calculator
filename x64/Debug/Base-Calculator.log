@@ -1,0 +1,4 @@
+﻿  Calculator.cpp
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Calculator.cpp(7,33): warning C4829: Parâmetros possivelmente incorretos para função main. Considere o uso de 'int main(Platform::Array<Platform::String^>^ argv)'
+  Adder.obj : Módulo MSIL encontrado; vínculo incremental está desabilitado para MSIL; executando link completo
+  Base-Calculator.vcxproj -> C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\x64\Debug\Base-Calculator.exe
