@@ -53,6 +53,7 @@ public:
 		};
 		if (a.empty() == true || b.empty() == true)
 			return false;
+
 		std::transform(a.begin(), a.end(), a.begin(),
 			[](unsigned char c) {
 				return std::tolower(c);
