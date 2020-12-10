@@ -2,6 +2,7 @@
 #include<string>
 #include <stdlib.h>
 #include "Adder.cpp"
+#include "Subtractor.cpp"
 
 using std::string;
 
@@ -22,8 +23,20 @@ public:
 	}
 
 	string subtract() {
-		//return Subtractor::subtract(this->memberA, this->memberB, base);
-		return "1";
+		if (memberA.find('-') != std::string::npos && memberB.find('-') == std::string::npos) {
+			memberA = NumberFormatter::removeMinusSign(memberA);
+			Adder::add(this->memberA, this->memberB, base);
+		}
+		else
+			if (memberA.find('-') == std::string::npos && memberB.find('-') != std::string::npos) // both will be added as positive
+				Adder::add(this->memberA, this->memberB, base); //still have to remove minus sign
+			else
+				if (memberA.find('-') != std::string::npos && memberB.find('-') != std::string::npos) // both have minus sign
+					return Subtractor::subtract(this->memberA, this->memberB, base); //still have to remove minus sign
+					else {
+						return Subtractor::subtract(this->memberA, this->memberB, base); //both numbers are positive and minus operation will be performed
+					}
+
 	}
 
 	string multiply() {
