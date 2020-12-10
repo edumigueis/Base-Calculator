@@ -1,0 +1,5 @@
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\x64\Debug\Base-Calculator.vcxprojAssemblyReference.cache
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\x64\Debug\BaseCalculator.Calculator.resources
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\x64\Debug\Base-Calculator.vcxproj.GenerateResource.cache
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\x64\Debug\Base-Calculator.exe
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\x64\Debug\Base-Calculator.pdb
