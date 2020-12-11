@@ -36,7 +36,6 @@ public:
 					else {
 						return Subtractor::subtract(this->memberA, this->memberB, base); //both numbers are positive and minus operation will be performed
 					}
-
 	}
 
 	string multiply() {
