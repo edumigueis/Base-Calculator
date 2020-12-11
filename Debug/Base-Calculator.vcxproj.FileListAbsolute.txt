@@ -2,4 +2,3 @@ C:\Dudu\Projetos e Apps\Base-Calculator\Debug\BaseCalculator.Calculator.resource
 C:\Dudu\Projetos e Apps\Base-Calculator\Debug\Base-Calculator.vcxproj.GenerateResource.cache
 C:\Dudu\Projetos e Apps\Base-Calculator\Debug\Base-Calculator.exe
 C:\Dudu\Projetos e Apps\Base-Calculator\Debug\Base-Calculator.pdb
-C:\Dudu\Projetos e Apps\Base-Calculator\Debug\Base-Calculator.vcxprojAssemblyReference.cache
