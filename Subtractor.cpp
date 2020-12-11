@@ -47,30 +47,43 @@ public:
 				numberA = NumberFormatter::completeWithZerosLeft(numberA, numberB.size());
 		}
 		string res;
-		for (int i = numberA.size() - 1; i >= -1; i--) {
+		bool isNegative;
+		for (int i = numberA.size() - 1; i > -1; i--) {
 			if (numberA[i] != ',') {
-				int sub = Converter::convertCharToInt(numberA[i]) + Converter::convertCharToInt(numberB[i]);
+				int sub = Converter::convertCharToInt(numberA[i]) - Converter::convertCharToInt(numberB[i]);
 				if (sub < 0) {
 					int a = i;
-					bool enough;
+					bool enough = false;
 					while (!enough) { //in case there are zeros in the number
 						a--;
+						if (a == -1) {
+							isNegative = true;
+							break;
+						}
 						int current = Converter::convertCharToInt(numberA[a]);
 						if (current > 0) {
-							numberA[a] = Converter::convertIntToChar(current--); //aqui tem q salvar na posição do current o current-- e adicionar a valor da base no sub
+							current--;
+							numberA[a] = Converter::convertIntToChar(current); //aqui tem q salvar na posição do current o current-- e adicionar a valor da base no sub
 							sub += numberBase;
 							enough = true;
 						}
 					}
 					//borrow base value from next iteration
 				}
-				res += Converter::convertIntToChar(sub);
+				if (sub >= 0)
+					res += Converter::convertIntToChar(sub);
+				else
+				if(sub < 0 && i <=0)
+					res += std::to_string(sub *-1);
 			}
 			else
 				res += ",";
 		}
 
 		std::reverse(res.begin(), res.end());
+
+		if (isNegative == true)
+			res = NumberFormatter::addMinusSign(res);
 
 		return res;
 	}

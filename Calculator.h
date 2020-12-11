@@ -269,7 +269,7 @@ namespace BaseCalculator {
 						Operator op(a, b, base);
 						int operation = this->comboBox1->SelectedIndex;
 						if (operation < 0)
-							MessageBox::Show("Please select the number base.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+							MessageBox::Show("Please select the operation.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 						else {
 							string result;
 							switch (operation) {
