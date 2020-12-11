@@ -1,10 +1,11 @@
 ﻿  Adder.cpp
 C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(14,27): warning C4018: '<': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(20,27): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(23,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(28,43): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(36,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(50,22): warning C4018: '<=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(25,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(31,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(36,43): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(44,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(58,22): warning C4018: '<=': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(24,14): warning C4018: '>=': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(24,42): warning C4018: '>=': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(31,15): warning C4018: '>=': incompatibilidade de signed/unsigned
@@ -12,40 +13,67 @@ C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(34,16): warning C4018: '>=': i
   Calculator.cpp
 C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(14,27): warning C4018: '<': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(20,27): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(23,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(28,43): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(36,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(50,22): warning C4018: '<=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(25,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(31,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(36,43): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(44,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(58,22): warning C4018: '<=': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(24,14): warning C4018: '>=': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(24,42): warning C4018: '>=': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(31,15): warning C4018: '>=': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(34,16): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(22,14): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(22,42): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(29,15): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(32,16): warning C4018: '>=': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Calculator.cpp(7,33): warning C4829: Parâmetros possivelmente incorretos para função main. Considere o uso de 'int main(Platform::Array<Platform::String^>^ argv)'
   Converter.cpp
 C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(14,27): warning C4018: '<': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(20,27): warning C4018: '<': incompatibilidade de signed/unsigned
+  Multiplier.cpp
+C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(14,27): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(20,27): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(25,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(31,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(36,43): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(44,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(58,22): warning C4018: '<=': incompatibilidade de signed/unsigned
   NumberFormatter.cpp
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(23,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(28,43): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(36,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(50,22): warning C4018: '<=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(25,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(31,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(36,43): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(44,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(58,22): warning C4018: '<=': incompatibilidade de signed/unsigned
   Operator.cpp
 C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(14,27): warning C4018: '<': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(20,27): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(23,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(28,43): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(36,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(50,22): warning C4018: '<=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(25,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(31,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(36,43): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(44,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(58,22): warning C4018: '<=': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(24,14): warning C4018: '>=': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(24,42): warning C4018: '>=': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(31,15): warning C4018: '>=': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(34,16): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(22,14): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(22,42): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(29,15): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(32,16): warning C4018: '>=': incompatibilidade de signed/unsigned
   Subtractor.cpp
 C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(14,27): warning C4018: '<': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(20,27): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(25,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(31,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(36,43): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(44,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(58,22): warning C4018: '<=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(22,14): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(22,42): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(29,15): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(32,16): warning C4018: '>=': incompatibilidade de signed/unsigned
   Verifier.cpp
   .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   Gerando Código...
-C:\Dudu\Projetos e Apps\Base-Calculator\Operator.cpp(40): warning C4715: 'Operator::subtract': nem todos os caminhos de controle retornam um valor
   Adder.obj : Módulo MSIL encontrado; vínculo incremental está desabilitado para MSIL; executando link completo
   Base-Calculator.vcxproj -> C:\Dudu\Projetos e Apps\Base-Calculator\Debug\Base-Calculator.exe

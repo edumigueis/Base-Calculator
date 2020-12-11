@@ -58,8 +58,8 @@ public:
 			if (numberA[i] != ',') {
 				int added = Converter::convertCharToInt(numberA[i]) + Converter::convertCharToInt(numberB[i]);
 				if (added >= numberBase) {
-					if(!addOne)
-					added = (added - numberBase);
+					if (!addOne)
+						added = (added - numberBase);
 					else
 						added = (added - numberBase) + 1;
 

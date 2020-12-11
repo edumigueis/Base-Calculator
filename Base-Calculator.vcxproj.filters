@@ -39,6 +39,9 @@
     <ClCompile Include="NumberFormatter.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
+    <ClCompile Include="Multiplier.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Calculator.h">

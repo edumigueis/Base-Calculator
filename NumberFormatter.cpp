@@ -18,6 +18,14 @@ public:
 		}
 			return res.erase(0, 1);
 	};
+	static string addMinusSign(string toAdd) {
+		string res;
+		res.resize(toAdd.length() + 1);
+		res[0] = '-';
+		for (int i = 1; i < toAdd.length() + 1; i++)
+			res[i] = toAdd[i - 1];
+		return res;
+	};
 	static vector<char> addComma(vector<char> toBeChanged, int commaSize) {
 		vector<char> res(toBeChanged.size() + commaSize);
 		for (int i = 0; i < toBeChanged.size(); i++)
