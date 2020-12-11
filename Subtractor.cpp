@@ -9,9 +9,6 @@ using std::string;
 
 class Subtractor {
 
-	string memberA, memberB;
-	int base;
-
 public:
 	static string subtract(string a, string b, int numberBase) {
 		vector<char> numberA = Converter::stringToCharArray(a);
