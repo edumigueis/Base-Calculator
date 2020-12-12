@@ -43,8 +43,22 @@ public:
 			else
 				numberA = NumberFormatter::completeWithZerosLeft(numberA, numberB.size());
 		}
+
 		string res;
 		bool isNegative = false;
+		for (int i2 = 0; i2 < numberA.size(); i2++) {
+			if (Converter::convertCharToInt(numberA[i2]) < Converter::convertCharToInt(numberB[i2])) {
+				isNegative = true;
+				vector<char> aux(numberB.size());
+				for (int i3 = 0; i3 < numberB.size(); i3++) {
+					aux[i3] = numberB[i3];
+				}
+				numberB = numberA;
+				numberA = aux;
+				break;
+			}
+		}
+
 		for (int i = numberA.size() - 1; i > -1; i--) {
 			if (numberA[i] != ',') {
 				int sub = Converter::convertCharToInt(numberA[i]) - Converter::convertCharToInt(numberB[i]);
