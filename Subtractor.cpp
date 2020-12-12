@@ -44,28 +44,31 @@ public:
 				numberA = NumberFormatter::completeWithZerosLeft(numberA, numberB.size());
 		}
 		string res;
-		bool isNegative;
+		bool isNegative = false;
 		for (int i = numberA.size() - 1; i > -1; i--) {
 			if (numberA[i] != ',') {
 				int sub = Converter::convertCharToInt(numberA[i]) - Converter::convertCharToInt(numberB[i]);
 				if (sub < 0) {
 					int a = i;
 					bool enough = false;
+					bool positiveFound = false;
 					while (!enough) { //in case there are zeros in the number
-						a--;
-						if (a == -1) {
-							isNegative = true;
-							break;
-						}
+						if (!positiveFound)
+							a--;
+						else
+							a++;
 						int current = Converter::convertCharToInt(numberA[a]);
 						if (current > 0) {
 							current--;
 							numberA[a] = Converter::convertIntToChar(current); //aqui tem q salvar na posição do current o current-- e adicionar a valor da base no sub
-							sub += numberBase;
-							enough = true;
+							numberA[a + 1] = Converter::convertIntToChar(Converter::convertCharToInt(numberA[a + 1]) + numberBase);
+							positiveFound = true;
 						}
+						if (a == i - 1 && positiveFound == true)
+							enough = true;
 					}
 					//borrow base value from next iteration
+					sub = Converter::convertCharToInt(numberA[i]) - Converter::convertCharToInt(numberB[i]);
 				}
 				if (sub >= 0)
 					res += Converter::convertIntToChar(sub);
