@@ -3,101 +3,20 @@ C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Converter.cpp(65,19): warning 
 C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(36,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
 C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(48,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
 C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(56,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(20,14): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(22,14): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(26,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(28,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(32,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(35,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(38,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(41,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(44,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(46,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(51,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-  Calculator.cpp
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Converter.cpp(65,19): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(36,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(48,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(56,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(20,14): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(22,14): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(26,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(28,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(32,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(35,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(38,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(41,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(44,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(46,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(51,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(18,14): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(20,14): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(24,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(26,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(30,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(33,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(36,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(39,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(42,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(44,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(60,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Calculator.cpp(7,33): warning C4829: Parâmetros possivelmente incorretos para função main. Considere o uso de 'int main(Platform::Array<Platform::String^>^ argv)'
-  Converter.cpp
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Converter.cpp(65,19): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
-  Multiplier.cpp
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Converter.cpp(65,19): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(36,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(48,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(56,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-  NumberFormatter.cpp
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(36,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(48,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(56,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-  Operator.cpp
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Converter.cpp(65,19): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(36,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(48,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(56,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(20,14): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(22,14): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(26,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(28,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(32,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(35,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(38,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(41,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(44,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(46,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(51,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(18,14): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(20,14): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(24,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(26,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(30,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(33,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(36,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(39,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(42,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(44,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(60,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-  Subtractor.cpp
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Converter.cpp(65,19): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(36,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(48,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\NumberFormatter.cpp(56,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(18,14): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(20,14): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(24,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(26,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(30,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(33,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(36,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(39,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(42,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(44,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
-C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Subtractor.cpp(60,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-  Verifier.cpp
-  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
-  Gerando Código...
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(19,1): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(62,15): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(64,15): warning C4244: 'inicializando': conversão de '__int64' para 'int', possível perda de dados
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(68,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(70,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(74,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(77,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(80,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(83,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(86,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\Adder.cpp(88,1): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
   Adder.obj : Módulo MSIL encontrado; vínculo incremental está desabilitado para MSIL; executando link completo
-  Base-Calculator.vcxproj -> C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\x64\Debug\Base-Calculator.exe
+Calculator.obj : error LNK2020: token indefinido (0A0004F2) "private: static class std::vector<char,class std::allocator<char> > Adder::numberB" (?numberB@Adder@@0V?$vector@DV?$allocator@D@std@@@std@@A)
+Calculator.obj : error LNK2020: token indefinido (0A000669) "private: static class std::vector<char,class std::allocator<char> > Adder::numberA" (?numberA@Adder@@0V?$vector@DV?$allocator@D@std@@@std@@A)
+Calculator.obj : error LNK2001: símbolo externo não resolvido "private: static class std::vector<char,class std::allocator<char> > Adder::numberA" (?numberA@Adder@@0V?$vector@DV?$allocator@D@std@@@std@@A)
+Calculator.obj : error LNK2001: símbolo externo não resolvido "private: static class std::vector<char,class std::allocator<char> > Adder::numberB" (?numberB@Adder@@0V?$vector@DV?$allocator@D@std@@@std@@A)
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\x64\Debug\Base-Calculator.exe : fatal error LNK1120: 4 externo não resolvidos
