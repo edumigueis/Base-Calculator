@@ -41,6 +41,25 @@ public:
 		return res;
 	}
 
+	static string addCommaAt(string toAdd, int index) {
+		if (index < 0)
+			throw std::invalid_argument("Index must be positive");
+
+		string res;
+		res.resize(toAdd.length() + 1);
+		res[index] = ',';
+		bool commaFound = false;
+		int i2 = 0;
+		for (int i = 0; i < res.length(); i++) {
+			if (res[i] == ',') {
+				continue;
+			}
+			res[i] = toAdd[i2];
+			i2++;
+		}
+		return res;
+	}
+
 	static vector<char> completeWithZerosRight(vector<char> toBeChanged, int commaSize, int commaIndex) {
 		vector<char> res(commaIndex + commaSize + 1);
 

@@ -284,6 +284,7 @@ namespace BaseCalculator {
 								break;
 							case 3:
 								result = op.divide();
+								MessageBox::Show("Division has not yet been implemented.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Information);
 								break;
 							}
 							String^ resFinal = gcnew String(result.c_str());

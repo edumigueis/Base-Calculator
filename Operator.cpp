@@ -93,6 +93,6 @@ public:
 				//return Divider::divide(this->memberA, this->memberB, base);
 			}
 		}
-		return "3";
+		return "";
 	}
 };
