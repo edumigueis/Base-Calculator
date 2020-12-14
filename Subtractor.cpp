@@ -8,6 +8,7 @@
 using std::string;
 
 class Subtractor {
+
 private:
 	vector<char> numberA, numberB;
 	int base;
@@ -71,7 +72,7 @@ public:
 		formatNumbers();
 		string res;
 		bool isNegative = false;
-		for (int i2 = 0; i2 < numberA.size(); i2++) { // corrigir essa parte no caso 90 - 5
+		for (int i2 = 0; i2 < numberA.size(); i2++) {
 			if (Converter::convertCharToInt(numberA[i2]) < Converter::convertCharToInt(numberB[i2])) {
 				isNegative = true;
 				vector<char> aux(numberB.size());
@@ -82,6 +83,8 @@ public:
 				numberA = aux;
 				break;
 			}
+			else
+				break;
 		}
 
 		for (int i = numberA.size() - 1; i > -1; i--) {

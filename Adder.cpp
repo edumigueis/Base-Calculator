@@ -44,12 +44,14 @@ private:
 				numberA = NumberFormatter::completeWithZerosLeft(numberA, numberB.size());
 		}
 	}
+
 public:
 	Adder(string numberA, string numberB, int numberBase) {
 		this->numberA = Converter::stringToCharArray(numberA);
 		this->numberB = Converter::stringToCharArray(numberB);
 		this->base = numberBase;
 	};
+
 	void setNumberA(string numberA){
 		this->numberA = Converter::stringToCharArray(numberA);
 	}
@@ -109,7 +111,6 @@ public:
 		}
 
 		std::reverse(res.begin(), res.end());
-
 		return res;
 	}
 };
