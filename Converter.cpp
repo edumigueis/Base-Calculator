@@ -10,16 +10,24 @@ using std::vector;
 class Converter {
 public:
     static vector<char> stringToCharArray(string toConvert) {
-        vector<char> res(toConvert.length());
-        for (int i = 0; i < toConvert.length(); i++)
-            res[i] = toConvert[i];
-        return res;
+        if (toConvert.length() <= 0)
+            return vector<char>();
+        else {
+            vector<char> res(toConvert.length());
+            for (int i = 0; i < toConvert.length(); i++)
+                res[i] = toConvert[i];
+            return res;
+        }
     };
     static string charArrayToString(vector<char> toConvert) {
-        string res;
-        for (int i = 0; i < toConvert.size(); i++)
-            res+= toConvert[i];
-        return res;
+        if (toConvert.size() <= 0)
+            return "";
+        else {
+            string res;
+            for (int i = 0; i < toConvert.size(); i++)
+                res += toConvert[i];
+            return res;
+        }
     }
 	static int convertCharToInt(char toBeConverted) {
         char c = toupper(toBeConverted);
@@ -67,6 +75,9 @@ public:
 	}
 
     static char convertIntToChar(int number) {
+        if(number < 0 || number > 36)
+            throw std::invalid_argument("A negative number or a number bigger than 36 can't be converted to an alphanumeric representation.");
+
         vector<char> alpha = {
         '0',
         '1',

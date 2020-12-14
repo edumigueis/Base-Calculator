@@ -31,6 +31,18 @@ public:
 		this->numberB = Converter::stringToCharArray(numberB);
 		this->base = numberBase;
 	}
+	void setNumberA(string numberA) {
+		this->numberA = Converter::stringToCharArray(numberA);
+	}
+	void setNumberB(string numberB) {
+		this->numberB = Converter::stringToCharArray(numberB);
+	}
+	string getNumberA() {
+		return Converter::charArrayToString(this->numberA);
+	}
+	string getNumberB() {
+		return Converter::charArrayToString(this->numberB);
+	}
 	string multiply() {
 		countCommas();
 

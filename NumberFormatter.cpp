@@ -10,6 +10,8 @@ using std::vector;
 class NumberFormatter {
 public:
 	static string removeMinusSign(string toBeChanged) {
+		if(toBeChanged.length() <= 0)
+			throw std::invalid_argument("A valid string must be provided.");
 		string res;
 		if (toBeChanged.find('-') == std::string::npos)
 			return toBeChanged;
@@ -29,21 +31,20 @@ public:
 	};
 
 	static vector<char> addComma(vector<char> toBeChanged, int commaSize) {
+		if (commaSize < 0)
+			throw std::invalid_argument("The number of zeros after comma must be positive.");
 		vector<char> res(toBeChanged.size() + commaSize);
 		for (int i = 0; i < toBeChanged.size(); i++)
 			res[i] = toBeChanged[i];
 		res[toBeChanged.size()] = ',';
-		if (commaSize > 0)
-		{
-			for (int b = toBeChanged.size() + 1; b < toBeChanged.size() + commaSize; b++)
-				res[b] = '0';
-		}
+		for (int b = toBeChanged.size() + 1; b < toBeChanged.size() + commaSize; b++)
+			res[b] = '0';
 		return res;
 	}
 
 	static string addCommaAt(string toAdd, int index) {
 		if (index < 0)
-			throw std::invalid_argument("Index must be positive");
+			throw std::invalid_argument("Index must be positive.");
 
 		string res;
 		res.resize(toAdd.length() + 1);
@@ -61,6 +62,8 @@ public:
 	}
 
 	static vector<char> completeWithZerosRight(vector<char> toBeChanged, int commaSize, int commaIndex) {
+		if (commaIndex < 0 || commaIndex > toBeChanged.size())
+			throw std::invalid_argument("Index of comma must be positive and inside vector range.");
 		vector<char> res(commaIndex + commaSize + 1);
 
 		for (int i = 0; i < toBeChanged.size(); i++)
@@ -74,6 +77,8 @@ public:
 	}
 
 	static vector<char> completeWithZerosLeft(vector<char> toBeChanged, int finalSize) {
+		if(finalSize < 0)
+			throw std::invalid_argument("Final size must be positive.");
 		vector<char> res(finalSize);
 
 		int a = toBeChanged.size() - 1;
