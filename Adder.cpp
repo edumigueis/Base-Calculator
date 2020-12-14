@@ -9,14 +9,11 @@ using std::string;
 
 class Adder {
 
-	string memberA, memberB;
+private:
+	vector<char> numberA, numberB;
 	int base;
 
-public:
-	static string add(string a, string b, int numberBase) {
-		vector<char> numberA = Converter::stringToCharArray(a);
-		vector<char> numberB = Converter::stringToCharArray(b);
-
+	void formatNumbers() {
 		auto it = find(numberA.begin(), numberA.end(), ',');
 		int commaA = std::distance(numberA.begin(), it);
 		auto itB = find(numberB.begin(), numberB.end(), ',');
@@ -46,7 +43,25 @@ public:
 			else
 				numberA = NumberFormatter::completeWithZerosLeft(numberA, numberB.size());
 		}
-
+	}
+public:
+	Adder(string numberA, string numberB, int numberBase) {
+		this->numberA = Converter::stringToCharArray(numberA);
+		this->numberB = Converter::stringToCharArray(numberB);
+		this->base = numberBase;
+	};
+	void setNumberA(string numberA){
+		this->numberA = Converter::stringToCharArray(numberA);
+	}
+	void setNumberB(string numberB) {
+		this->numberB = Converter::stringToCharArray(numberB);
+	}
+	void setBase(int nBase) {
+		if(nBase > 0 && nBase < 37)
+		this->base = nBase;
+	}
+	string add() {
+		formatNumbers();
 		string res;
 		bool addOne = false;
 		for (int i = numberA.size() - 1; i >= -1; i--) {
@@ -58,11 +73,11 @@ public:
 				break;
 			if (numberA[i] != ',') {
 				int added = Converter::convertCharToInt(numberA[i]) + Converter::convertCharToInt(numberB[i]);
-				if (added >= numberBase) {
+				if (added >= base) {
 					if (!addOne)
-						added = (added - numberBase);
+						added = (added - base);
 					else
-						added = (added - numberBase) + 1;
+						added = (added - base) + 1;
 
 					addOne = true;
 					res += Converter::convertIntToChar(added);
@@ -70,8 +85,8 @@ public:
 				}
 				if (addOne == true) {
 					added += 1;
-					if (added >= numberBase) {
-						added = (added - numberBase);
+					if (added >= base) {
+						added = (added - base);
 						res += Converter::convertIntToChar(added);
 						continue;
 					}

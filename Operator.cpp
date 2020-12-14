@@ -23,58 +23,69 @@ public:
 		if (memberA.find('-') != std::string::npos && memberB.find('-') != std::string::npos) {
 			memberA = NumberFormatter::removeMinusSign(memberA);
 			memberB = NumberFormatter::removeMinusSign(memberB);
-			string res = NumberFormatter::addMinusSign(Adder::add(this->memberA, this->memberB, base));
+			Adder adder(memberA, memberB, base);
+			string res = NumberFormatter::addMinusSign(adder.add());
 			return res;
 		}
 		else
 			if (memberA.find('-') == std::string::npos && memberB.find('-') != std::string::npos) {
 				memberB = NumberFormatter::removeMinusSign(memberB);
-				return Subtractor::subtract(this->memberA, this->memberB, base);
+				Subtractor sub(this->memberA, this->memberB, base);
+				return sub.subtract();
 			} // both will be added as positive
 			else
 				if (memberA.find('-') != std::string::npos && memberB.find('-') == std::string::npos) {
 					memberA = NumberFormatter::removeMinusSign(memberA);
-					return Subtractor::subtract(this->memberB, this->memberA, base); //still have to remove minus sign
+					Subtractor sub(this->memberB, this->memberA, base);
+					return sub.subtract(); //still have to remove minus sign
 				}
 				else {
-					return Adder::add(this->memberA, this->memberB, base);
+					Adder adder(memberA, memberB, base);
+					return adder.add();
 				}
 	}
 
 	string subtract() {
 		if (memberA.find('-') != std::string::npos && memberB.find('-') == std::string::npos) {
 			memberA = NumberFormatter::removeMinusSign(memberA);
-			string res = NumberFormatter::addMinusSign(Adder::add(this->memberA, this->memberB, base));
+			Adder adder(memberA, memberB, base);
+			string res = NumberFormatter::addMinusSign(adder.add());
 			return res;
 		}
 		else
 			if (memberA.find('-') == std::string::npos && memberB.find('-') != std::string::npos) {
 				memberB = NumberFormatter::removeMinusSign(memberB);
-				return Adder::add(this->memberA, this->memberB, base);
+				Adder adder(memberA, memberB, base);
+				return adder.add();
 			} // both will be added as positive
 			else
 				if (memberA.find('-') != std::string::npos && memberB.find('-') != std::string::npos) {
 					memberB = NumberFormatter::removeMinusSign(memberB);
 					memberA = NumberFormatter::removeMinusSign(memberA);
-					return Subtractor::subtract(this->memberB, this->memberA, base); //still have to remove minus sign
+					Subtractor sub(this->memberB, this->memberA, base);
+					return sub.subtract(); //still have to remove minus sign
 				}
 				else {
-					return Subtractor::subtract(this->memberA, this->memberB, base); //both numbers are positive and minus operation will be performed
+					Subtractor sub(this->memberA, this->memberB, base);
+					return sub.subtract(); //both numbers are positive and minus operation will be performed
 				}
 	}
 
 	string multiply() {
 		if (memberA.find('-') != std::string::npos && memberB.find('-') != std::string::npos) {
-			return Multiplier::multiply(this->memberA, this->memberB, base);
+			Multiplier mult(this->memberA, this->memberB, base);
+			return mult.multiply();
 		}
 		else {
 			if (memberA.find('-') != std::string::npos && memberB.find('-') || memberB.find('-') != std::string::npos) {
 				memberB = NumberFormatter::removeMinusSign(memberB);
 				memberA = NumberFormatter::removeMinusSign(memberA);
-				return NumberFormatter::addMinusSign(Multiplier::multiply(this->memberA, this->memberB, base));
+				Multiplier mult(this->memberA, this->memberB, base);
+				return NumberFormatter::addMinusSign(mult.multiply());
 			}
 			else {
-				return Multiplier::multiply(this->memberA, this->memberB, base);
+				Multiplier mult(this->memberA, this->memberB, base);
+				return mult.multiply();
 			}
 		}
 	}

@@ -9,22 +9,30 @@
 using std::string;
 
 class Multiplier {
+private:
+	vector<char> numberA, numberB;
+	int base;
+	int finalCommaIndex = 0;
 
-public:
-	static string multiply(string a, string b, int numberBase) {
-		vector<char> numberA = Converter::stringToCharArray(a);
-		vector<char> numberB = Converter::stringToCharArray(b);
-
+	void countCommas() {
 		auto it = find(numberA.begin(), numberA.end(), ',');
 		int commaA = std::distance(numberA.begin(), it);
 		auto itB = find(numberB.begin(), numberB.end(), ',');
 		int commaB = std::distance(numberB.begin(), itB);
-		int finalCommaIndex = 0;
 
 		if (commaA < numberA.size())
 			finalCommaIndex += (numberA.size() - commaA - 1);
-		if(commaB < numberB.size())
+		if (commaB < numberB.size())
 			finalCommaIndex += (numberB.size() - commaB - 1);
+	}
+public:
+	Multiplier(string numberA, string numberB, int numberBase) {
+		this->numberA = Converter::stringToCharArray(numberA);
+		this->numberB = Converter::stringToCharArray(numberB);
+		this->base = numberBase;
+	}
+	string multiply() {
+		countCommas();
 
 		string res;
 		vector<string> partRes;
@@ -41,9 +49,9 @@ public:
 							mult += toBeAdded;
 							toBeAdded = -1;
 						}
-						if (mult > numberBase) {
-							int remainder = mult % numberBase;
-							toBeAdded = (mult - remainder) / numberBase;
+						if (mult > base) {
+							int remainder = mult % base;
+							toBeAdded = (mult - remainder) / base;
 							mult = remainder;
 						}
 						if (i == 0) {
@@ -64,8 +72,11 @@ public:
 		}
 
 		string mainRes = "0";
+		Adder adder(mainRes, "0", base);
 		for (int b = 0; b < partRes.size(); b++) {
-			mainRes = Adder::add(mainRes, partRes[b], numberBase);
+			adder.setNumberA(mainRes);
+			adder.setNumberB(partRes[b]);
+			mainRes = adder.add();
 		}
 
 		if(finalCommaIndex > 0)

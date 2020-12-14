@@ -8,12 +8,11 @@
 using std::string;
 
 class Subtractor {
+private:
+	vector<char> numberA, numberB;
+	int base;
 
-public:
-	static string subtract(string a, string b, int numberBase) {
-		vector<char> numberA = Converter::stringToCharArray(a);
-		vector<char> numberB = Converter::stringToCharArray(b);
-
+	void formatNumbers() {
 		auto it = find(numberA.begin(), numberA.end(), ',');
 		int commaA = std::distance(numberA.begin(), it);
 		auto itB = find(numberB.begin(), numberB.end(), ',');
@@ -43,10 +42,19 @@ public:
 			else
 				numberA = NumberFormatter::completeWithZerosLeft(numberA, numberB.size());
 		}
+	}
 
+public:
+	Subtractor(string numberA, string numberB, int numberBase) {
+		this->numberA = Converter::stringToCharArray(numberA);
+		this->numberB = Converter::stringToCharArray(numberB);
+		this->base = numberBase;
+	}
+	string subtract() {
+		formatNumbers();
 		string res;
 		bool isNegative = false;
-		for (int i2 = 0; i2 < numberA.size(); i2++) {
+		for (int i2 = 0; i2 < numberA.size(); i2++) { // corrigir essa parte no caso 90 - 5
 			if (Converter::convertCharToInt(numberA[i2]) < Converter::convertCharToInt(numberB[i2])) {
 				isNegative = true;
 				vector<char> aux(numberB.size());
@@ -75,7 +83,7 @@ public:
 						if (current > 0) {
 							current--;
 							numberA[a] = Converter::convertIntToChar(current); //aqui tem q salvar na posição do current o current-- e adicionar a valor da base no sub
-							numberA[a + 1] = Converter::convertIntToChar(Converter::convertCharToInt(numberA[a + 1]) + numberBase);
+							numberA[a + 1] = Converter::convertIntToChar(Converter::convertCharToInt(numberA[a + 1]) + base);
 							positiveFound = true;
 						}
 						if (a == i - 1 && positiveFound == true)
