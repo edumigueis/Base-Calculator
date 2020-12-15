@@ -27,4 +27,4 @@ Copyright (c) Eduardo Migueis and Rodrigo Smith 2020.
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/edumigueis/Mars-Map-Router](https://github.com/edumigueis)
+[https://github.com/edumigueis/Base-Calculator](https://github.com/edumigueis)
