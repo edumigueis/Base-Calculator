@@ -1,107 +1,139 @@
 ﻿  Adder.cpp
-C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(17,31): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(27,31): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(12,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(34,100): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(47,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(64,130): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(79,113): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(29,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(39,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(42,42): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(55,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(65,36): warning C4018: '>': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(69,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(86,22): warning C4018: '<=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(22,14): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(22,42): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(29,15): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(32,16): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(22,31): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(32,31): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(17,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(39,100): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(52,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(69,130): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(84,113): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(34,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(44,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(47,42): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(60,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(70,36): warning C4018: '>': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(74,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(91,22): warning C4018: '<=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(27,14): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(27,42): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(34,15): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(37,16): warning C4018: '>=': incompatibilidade de signed/unsigned
   Calculator.cpp
-C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(17,31): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(27,31): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(12,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(34,100): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(47,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(64,130): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(79,113): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(29,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(39,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(42,42): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(55,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(65,36): warning C4018: '>': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(69,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(86,22): warning C4018: '<=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(22,14): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(22,42): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(29,15): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(32,16): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(22,14): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(22,42): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(29,15): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(32,16): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(75,23): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(79,25): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Multiplier.cpp(23,14): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Multiplier.cpp(25,14): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Multiplier.cpp(93,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(22,31): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(32,31): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(17,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(39,100): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(52,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(69,130): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(84,113): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(34,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(44,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(47,42): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(60,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(70,36): warning C4018: '>': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(74,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(91,22): warning C4018: '<=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(27,14): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(27,42): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(34,15): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(37,16): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(27,14): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(27,42): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(34,15): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(37,16): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(80,23): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(84,25): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Multiplier.cpp(28,14): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Multiplier.cpp(30,14): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Multiplier.cpp(98,21): warning C4018: '<': incompatibilidade de signed/unsigned
 C:\Dudu\Projetos e Apps\Base-Calculator\Calculator.cpp(7,33): warning C4829: Parâmetros possivelmente incorretos para função main. Considere o uso de 'int main(Platform::Array<Platform::String^>^ argv)'
+  Converter.cpp
+C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(22,31): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(32,31): warning C4018: '<': incompatibilidade de signed/unsigned
   Multiplier.cpp
-C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(17,31): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(27,31): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(12,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(34,100): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(47,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(64,130): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(79,113): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(29,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(39,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(42,42): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(55,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(65,36): warning C4018: '>': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(69,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(86,22): warning C4018: '<=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(22,14): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(22,42): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(29,15): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(32,16): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Multiplier.cpp(23,14): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Multiplier.cpp(25,14): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Multiplier.cpp(93,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(22,31): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(32,31): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(17,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(39,100): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(52,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(69,130): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(84,113): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(34,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(44,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(47,42): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(60,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(70,36): warning C4018: '>': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(74,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(91,22): warning C4018: '<=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(27,14): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(27,42): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(34,15): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(37,16): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Multiplier.cpp(28,14): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Multiplier.cpp(30,14): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Multiplier.cpp(98,21): warning C4018: '<': incompatibilidade de signed/unsigned
   NumberFormatter.cpp
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(12,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(34,100): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(47,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(64,130): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(79,113): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(29,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(39,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(42,42): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(55,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(65,36): warning C4018: '>': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(69,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(86,22): warning C4018: '<=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(17,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(39,100): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(52,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(69,130): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(84,113): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(34,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(44,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(47,42): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(60,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(70,36): warning C4018: '>': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(74,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(91,22): warning C4018: '<=': incompatibilidade de signed/unsigned
+  Operator.cpp
+C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(22,31): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(32,31): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(17,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(39,100): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(52,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(69,130): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(84,113): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(34,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(44,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(47,42): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(60,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(70,36): warning C4018: '>': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(74,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(91,22): warning C4018: '<=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(27,14): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(27,42): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(34,15): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Adder.cpp(37,16): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(27,14): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(27,42): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(34,15): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(37,16): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(80,23): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(84,25): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Multiplier.cpp(28,14): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Multiplier.cpp(30,14): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Multiplier.cpp(98,21): warning C4018: '<': incompatibilidade de signed/unsigned
   Subtractor.cpp
-C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(17,31): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(27,31): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(12,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(34,100): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(47,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(64,130): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(79,113): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(29,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(39,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(42,42): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(55,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(65,36): warning C4018: '>': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(69,21): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(86,22): warning C4018: '<=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(22,14): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(22,42): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(29,15): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(32,16): warning C4018: '>=': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(75,23): warning C4018: '<': incompatibilidade de signed/unsigned
-C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(79,25): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(22,31): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Converter.cpp(32,31): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(17,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(39,100): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(52,80): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(69,130): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(84,113): warning C4290: especificação de exceção de C++ ignorada exceto para indicar que a função não é __declspec(nothrow)
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(34,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(44,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(47,42): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(60,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(70,36): warning C4018: '>': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(74,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\NumberFormatter.cpp(91,22): warning C4018: '<=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(27,14): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(27,42): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(34,15): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(37,16): warning C4018: '>=': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(80,23): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Dudu\Projetos e Apps\Base-Calculator\Subtractor.cpp(84,25): warning C4018: '<': incompatibilidade de signed/unsigned
+  Verifier.cpp
   Gerando Código...
   Adder.obj : Módulo MSIL encontrado; vínculo incremental está desabilitado para MSIL; executando link completo
   Base-Calculator.vcxproj -> C:\Dudu\Projetos e Apps\Base-Calculator\Debug\Base-Calculator.exe
