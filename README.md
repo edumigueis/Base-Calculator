@@ -6,6 +6,7 @@
 This project consists of a single screen made in Windows Forms. All events are treated and user mistakes are being handled. The user inserts two numbers in a single base from 2 to 36, select the base and select the operation. The program will then calculate and show the value on screen.
 
 ![](header.png)
+*Print of the interface. Background photo by Dom J on Pexels.*
 
 ## Installation
 
@@ -13,7 +14,7 @@ Download the project and run the .exe file. Or, open the project in your prefere
 
 ## Usage example
 
-This project uses really interesting algorithms like backtracking and recursion in binary trees. This implementations can be used in a lot of situations, especially when dealing with locations and paths overall.
+This project uses really interesting algorithms that are similar processes to those on paper used to solve math problems. And, you can use them as inspiration or as part of similar solutions.
 
 ## Notes
 
