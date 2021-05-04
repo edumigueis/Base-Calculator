@@ -1,11 +1,12 @@
+/*
+Authors: Eduardo Migueis and Rodrigo Smith.
+Repository: https://github.com/edumigueis/Base-Calculator
+License: MIT License.
+*/
 #include <iostream>
-
 #include<string>
-
 #include <stdlib.h>
-
 #include <algorithm>
-
 #include <cctype>
 
 using std::string;
