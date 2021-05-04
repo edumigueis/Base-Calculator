@@ -72,6 +72,7 @@ public:
 		if(nBase > 0 && nBase < 37)
 		this->base = nBase;
 	}
+
 	string add() {
 		formatNumbers();
 		string res;

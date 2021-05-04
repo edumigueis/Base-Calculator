@@ -2,3 +2,4 @@ C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\x64\Debug\BaseCalculator.Calcu
 C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\x64\Debug\Base-Calculator.vcxproj.GenerateResource.cache
 C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\x64\Debug\Base-Calculator.exe
 C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\x64\Debug\Base-Calculator.pdb
+C:\Users\Rodrigo\Documents\GitHub\Base-Calculator\x64\Debug\Base-Calculator.vcxprojAssemblyReference.cache
